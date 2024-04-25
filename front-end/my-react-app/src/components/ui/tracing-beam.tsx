@@ -24,6 +24,7 @@ export const TracingBeam = ({
 
   // track velocity of scroll to increase or decrease distance between svg gradient y coordinates.
   const scrollYProgressVelocity = useVelocity(scrollYProgress);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [velo, setVelocity] = React.useState(0);
 
   const contentRef = useRef<HTMLDivElement>(null);
@@ -59,7 +60,10 @@ export const TracingBeam = ({
   return (
     <motion.div
       ref={ref}
-      className={cn("relative w-full max-w-4xl mx-auto h-full", className)}>
+      className={cn(
+        "relative w-full max-md:w-unit-6xl max-w-4xl mx-auto h-full",
+        className
+      )}>
       <div className="absolute -left-20 top-3">
         <motion.div
           transition={{

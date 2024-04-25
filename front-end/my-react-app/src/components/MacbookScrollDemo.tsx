@@ -6,14 +6,14 @@ export const MacbookScrollDemo = () => {
     <div className=" w-full   dark:bg-dot-white/[0.2] bg-dot-black/[0.2] relative flex items-center justify-center">
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_30%,black)]"></div>
       <div className="overflow-hidden  w-full  ">
-        <div className="max-w-[900px] px-8 m-auto mt-20  ">
+        <div className="max-w-[1000px] px-8 m-auto">
           <p className="block text-sm uppercase text-neural-60">
             DISCOVER THE POTENTIAL OF
           </p>
           <h1 className="mt-1 block text-3xl font-semibold md:text-4xl lg:text-5xl">
-            About Me
+            MY BACKGROUND
           </h1>
-          <p className="mt-3 max-w-5xl text-neutral-60 md:text-lg lg:text-lg">
+          <p className="mt-3 max-w-5xl text-neutral-60 xl:text-lg sm:text-small lg:text-lg">
             I'm Graduate Bachelor of Software Engineering at{" "}
             <strong> BELTIE International University </strong> in 2024, offers
             diverse experience in web and backend development. Skilled in PHP,

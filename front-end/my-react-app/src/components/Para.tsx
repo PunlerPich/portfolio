@@ -8,34 +8,34 @@ export default function HeroParallaxDemo() {
 export const products = [
   {
     title: "Moonbeam",
-    link: "https://gomoonbeam.com",
+    link: "/Real_Estest",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+      "https://firebasestorage.googleapis.com/v0/b/bel-news-99264.appspot.com/o/images%2FScreenshot%202024-04-21%20094839.png?alt=media&token=d5b4543a-8706-421e-a619-b3d226fc503f",
   },
   {
-    title: "Cursor",
-    link: "https://cursor.so",
+    title: "Real_estest Website",
+    link: "/Real_Estest",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cursor.png",
+      "https://firebasestorage.googleapis.com/v0/b/bel-news-99264.appspot.com/o/images%2FScreenshot%202024-04-21%20094839.png?alt=media&token=d5b4543a-8706-421e-a619-b3d226fc503f",
   },
   {
-    title: "Rogue",
-    link: "https://userogue.com",
+    title: "University News Website",
+    link: "/Bt_Project",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/rogue.png",
+      "https://firebasestorage.googleapis.com/v0/b/bel-news-99264.appspot.com/o/images%2F1.png?alt=media&token=c932fac9-32cc-4290-848a-c6c5176c25ee",
   },
 
   {
-    title: "Editorially",
-    link: "https://editorially.org",
+    title: "Book Club",
+    link: "/Book_Club",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editorially.png",
+      "https://firebasestorage.googleapis.com/v0/b/bel-news-99264.appspot.com/o/images%2F55555.jpg?alt=media&token=ec13342e-3adf-4799-a0a8-6513736909d6",
   },
   {
     title: "Editrix AI",
     link: "https://editrix.ai",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editrix.png",
+      "https://firebasestorage.googleapis.com/v0/b/bel-news-99264.appspot.com/o/images%2FScreenshot%202024-04-21%20094839.png?alt=media&token=d5b4543a-8706-421e-a619-b3d226fc503f",
   },
   {
     title: "Pixel Perfect",

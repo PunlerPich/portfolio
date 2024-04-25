@@ -68,13 +68,13 @@ export const MacbookScroll = ({
   return (
     <div
       ref={ref}
-      className="min-h-[200vh]  flex flex-col items-center py-0 md:py-10 sm:py-10 justify-start flex-shrink-0 [perspective:1000px] transform md:scale-100  scale-50 ">
+      className="xl:min-h-[200vh] sm:min-h-[50vh]  flex flex-col items-center py-0 md:py-6 sm:py-6 justify-start flex-shrink-0 [perspective:1000px] transform md:scale-100  scale-50 ">
       <motion.h2
         style={{
           translateY: textTransform,
           opacity: textOpacity,
         }}
-        className="dark:text-white text-neutral-800 text-3xl font-bold mb-20 text-center">
+        className="dark:text-white text-neutral-800 text-3xl font-bold xl:mb-20 sm:mb-0 text-center">
         {title || (
           <span>
             This Macbook is built with Tailwindcss. <br /> No kidding.

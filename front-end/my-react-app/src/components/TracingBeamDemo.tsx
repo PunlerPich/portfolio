@@ -8,11 +8,8 @@ import { TracingBeam } from "./ui/tracing-beam";
 export function TracingBeamDemo() {
   return (
     <>
-      <div className="max-w-[1000px]  m-auto  py-12  px-4 ">
+      <div className="max-w-[1000px]  m-auto  pt-24 pb-5  px-4 ">
         <div className=" space-y-2">
-          <p className="text-lg text-muted-foreground ">
-            WELCOME TO THE PAGE OF
-          </p>
           <h1 className="scroll-m-20 text-4xl font-bold tracking-tight text-black dark:text-white">
             Work & Experience
           </h1>
@@ -76,8 +73,6 @@ const dummyContent = [
       </>
     ),
     badge: "Kep, 2020-2021",
-    image:
-      "https://mynewsforbelty.s3.amazonaws.com/TestImage/10.06.2021+Photo+At+Achool.jpg",
   },
   {
     title: "JZ Group (Web Developer)",
@@ -101,7 +96,6 @@ const dummyContent = [
       </>
     ),
     badge: "Phnom Penh, 2021-2022",
-    image: "https://mynewsforbelty.s3.amazonaws.com/TestImage/2+copy.jpg",
   },
   {
     title: "True Money Cambodia (	Backend Developer)",
@@ -128,7 +122,5 @@ const dummyContent = [
       </>
     ),
     badge: "Phnom Penh, 2023",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/bel-news-99264.appspot.com/o/images%2Fpich.jpg?alt=media&token=1abf3687-50a3-45df-9473-4280c981739b",
   },
 ];
